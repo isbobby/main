@@ -15,7 +15,7 @@ const BackdropStyle = {
 const contentStyle = {
     height: '100%',
     width: '100%',
-    backgroundColor: 'rgba(255, 255, 255, 0.45)',
+    backgroundColor: 'rgba(233, 222, 211, 0.8)',
 }
 
 class Backdrop extends React.Component {

@@ -1,13 +1,21 @@
 import Header from "./components/Header";
-import Content from "./components/Content";
+import NUSContent from "./components/NUSContent";
 import Backdrop from "./components/Backdrop";
+import ReadingContent from "./components/ReadingContent";
+import PNCContent from "./components/PNCContent";
+import Introduction from "./components/Introduction";
 
 function App() {
   return (
     <div className="App">
       <Backdrop>
-        <Header></Header>
-        <Content></Content>
+        <Introduction></Introduction>
+        <Header title="University Class Notes"></Header>
+        <NUSContent></NUSContent>
+        <Header title="Paper and Code"></Header>
+        <PNCContent></PNCContent>
+        <Header title="Reading summary"></Header>
+        <ReadingContent></ReadingContent>
       </Backdrop>
     </div>
   );
